@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Создание учётной записи</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <form class="block-center form">
+    <h1>Аккаунт Rofl.io</h1>
+    <div class="form-input mb-2">
+        <div class="form-input mb-2">
+            <label for="nickename" class="sr-only">Псевдоним</label>
+            <input type="nickname" id="nickname" placeholder="Ваш псевдоним">
+          </div>
+      <label for="name" class="sr-only">Ваше имя</label>
+      <input type="text" id="name" placeholder="Ваше имя">
+    </div>
+    <div class="form-input mb-2">
+      <label for="email" class="sr-only">Email</label>
+      <input type="email" id="email" placeholder="Ваш Email">
+    </div>
+    <div class="form-input mb-2">
+        <label for=" birthday" class="sr-only">Дата рождения</label>
+        <input type="birthday" id="birthday" placeholder="Ваша дата рождения">
+      </div>
+    <div class="small mb-1">
+      <label>
+            <input type="checkbox" name="accept" value="Accept Rule">
+            Я принимаю правила сервиса
+      </label>
+    </div>
+    <div class="small mb-1">
+      <label>
+        <input type="checkbox" name="accept" value="Accept Rule">
+            Соглашайтесь на получение акутальных новостей Rofl.io
+      </label>
+    </div>
+    <h2>Выбрать план учётной записи</h2>
+  <div>
+    <label>
+      <input type="radio" name="teacher" value="teacher">
+      Учитель
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="student" value="student">
+      Ученик
+    </label>
+    <br>
+    <div class="sr-only"
+        <label for="name" class="sr-only">Регистрационное окно</label>
+        <input id="name" type="text">
+    </div>
+    <button class="btn btn-green">Отправить сообщение</button>
+  </form>
+  
+</body>
+</html>
